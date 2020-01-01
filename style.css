@@ -1,0 +1,109 @@
+
+body {
+	background-image:url("./background.jpg");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div.transparent {
+	background-color: #ffffff;
+	opacity: 0.7;
+}
+
+table.t1 {
+	border: medium solid #ff3222;
+	width: 70%;
+	margin: 5px;
+}
+table.t1 td, th {
+	border: thin solid #ff3222;
+	width: 50%;
+	padding: 5px;
+}
+
+table.t2 {
+	border: medium solid #6495ed;
+	width: 100%;
+	margin: 5px;
+}
+table.t2 td, th {
+	border: thin solid #6495ed;
+	width: 15%;
+	padding: 5px;
+}
+.thx {
+	border: thin solid #6495ed;
+	width: 55%;
+}
+
+div.scroll {
+	text-align: justify;
+	margin: 8px;
+	width: 500px;
+	height: 100px;
+	overflow: scroll;
+}
+div.d1 {
+	position: fixed;
+	left: 950px;
+	top: 300px;
+}
+div.d2 {
+	position: fixed;
+	left: 910px; 
+	top: 370px;
+}
+
+p.year {
+	color: #ff3222;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+img.i1 {
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	left: 1170px; 
+	top: 420px; 
+}
+
+h2 {
+	color: #3838e8;
+}
+h4 {
+	color: #ff3222;
+}
+h4.c1 {
+	color: #6495ed;
+}
+
+section {
+	width: 870px;
+}
+aside {
+	width: 360px;
+	float: right;
+	position: fixed;
+	left: 900px;
+	top: 80px;
+}
+header, footer {
+	font-style: italic;
+}
+header {
+	width: 360px;
+	margin-left: 0px;
+	position: fixed;
+	left: 900px;
+	top: 0px;
+}
+footer {
+	width: 360px;
+	margin-left: 50px;
+	position: fixed;
+	left: 900px;
+	top: 520px;
+}
